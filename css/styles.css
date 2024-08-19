@@ -1,0 +1,81 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: var(--very-dark-desaturated-blue--light);
+}
+
+main {
+    width: 32rem;
+}
+
+/* ---------------------- HEADER ------------------------ */
+.title {
+    height: 6rem;
+    color: var(--white);
+}
+
+/* ---------------------- INPUT ------------------------ */
+.input {
+    width: 100%;
+    height: 6.5rem;
+    padding: 0 2rem;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: var(--very-dark-desaturated-blue--dark);
+    color: var(--white);
+}
+.input:focus-visible {
+    outline: none;
+}
+
+/* ---------------------- KEYBOARD ------------------------ */
+.keyboard {
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.7rem;
+    display: grid;
+    grid-template-columns: repeat(4, 6.2rem);
+    grid-template-rows: repeat(5, 6rem);
+    gap: 1rem;
+    background-color: var(--very-dark-desaturated-blue--medium);
+}
+
+button {
+    height: 100%;
+    background-color: var(--light-grayish-orange);
+    border: none;
+    border-radius: 0.4rem;
+    border-bottom: solid var(--grayish-orange) 0.4rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--very-dark-desaturated-blue--light);
+}
+button:active {
+    border: none;
+}
+
+.keyboard--del {
+    font-size: 2rem;
+    background-color: var(--desaturated-dark-blue--light);
+    border-bottom: solid var(--desaturated-dark-blue) 0.4rem;
+    color: var(--white);
+}
+.keyboard--reset {
+    font-size: 2rem;
+    grid-column: 1/span 2;
+    background-color: var(--desaturated-dark-blue--light);
+    border-bottom: solid var(--desaturated-dark-blue) 0.4rem;    
+    color: var(--white);
+}
+.keyboard--equals {
+    font-size: 2rem;
+    grid-column: 3/span 2;
+    background-color: var(--red);
+    border-bottom: solid var(--dark-red) 0.4rem;
+    color: var(--white);
+}
