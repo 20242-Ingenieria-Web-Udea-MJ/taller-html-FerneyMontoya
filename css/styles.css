@@ -28,6 +28,7 @@ main {
     border-radius: 0.7rem;
     background-color: var(--very-dark-desaturated-blue--dark);
     color: var(--white);
+    caret-color: transparent;
 }
 .input:focus-visible {
     outline: none;
@@ -57,6 +58,9 @@ button {
 }
 button:active {
     border: none;
+}
+button:hover {
+    cursor: pointer;
 }
 
 .keyboard--del {
