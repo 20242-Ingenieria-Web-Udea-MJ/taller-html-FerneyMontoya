@@ -7,6 +7,7 @@ body {
 }
 
 main {
+    position: relative;
     width: 32rem;
 }
 
@@ -32,6 +33,25 @@ main {
 }
 .input:focus-visible {
     outline: none;
+}
+
+.invalid-alert {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 0.5rem;
+    color: var(--red);
+}
+.invalid-alert p {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+}
+.hidden {
+    display: none;
+}
+.outline-red {
+    border: solid var(--red) 0.1rem;
 }
 
 /* ---------------------- KEYBOARD ------------------------ */
