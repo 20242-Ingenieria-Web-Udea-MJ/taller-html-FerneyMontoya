@@ -7,14 +7,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/initializr.css">
+    <link id="theme-file" rel="stylesheet" href="./css/theme1.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Calculadora</title>
 </head>
 <body>
     <main>
-        <section class="title">
+        <header class="header">
             <h1>calc</h1>
-        </section>
+            <div class="header--toggle-container">
+                <span>THEME</span>
+                <div class="header--toggle-container__picker">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ul>
+                    <div class="header--toggle-container__toggle">
+                        <div class="header--toggle-container__toggle__circle"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
         
         <section>
             <input class="input" type="text">

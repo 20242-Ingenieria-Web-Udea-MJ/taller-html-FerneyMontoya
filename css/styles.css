@@ -12,9 +12,68 @@ main {
 }
 
 /* ---------------------- HEADER ------------------------ */
-.title {
+.header {
     height: 6rem;
-    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--input-color);
+}
+
+.header h1 {
+    margin-bottom: 3rem;
+}
+
+.header--toggle-container {
+    display: flex;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+
+.header--toggle-container span {
+    margin-right: 2.5rem;
+    margin-bottom: 0.4rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.4rem;
+}
+
+.header--toggle-container__picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header--toggle-container ul {
+    width: 7rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.header--toggle-container__toggle {
+    position: relative;
+    width: 7.5rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    border-radius: 1.25rem;
+    background-color: var(--very-dark-desaturated-blue--dark);
+}
+
+.header--toggle-container__toggle__circle {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    content: '';
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: var(--red);
+    transition: all 0.3s ease;
 }
 
 /* ---------------------- INPUT ------------------------ */
@@ -28,7 +87,7 @@ main {
     border: none;
     border-radius: 0.7rem;
     background-color: var(--very-dark-desaturated-blue--dark);
-    color: var(--white);
+    color: var(--input-color);
     caret-color: transparent;
 }
 .input:focus-visible {
@@ -74,7 +133,7 @@ button {
     border-bottom: solid var(--grayish-orange) 0.4rem;
     font-size: 3rem;
     font-weight: bold;
-    color: var(--very-dark-desaturated-blue--light);
+    color: var(--very-dark-grayish-blue);
 }
 button:active {
     border: none;
