@@ -39,17 +39,19 @@ Este proyecto es una calculadora web desarrollada con HTML, CSS, y JavaScript co
 
 ### js/
 
+- **keep-focus.js**: Mantenimiento del foco en los elementos correctos.
+- **key-clicked.js**: Gestión de los eventos de clic en los botones de la calculadora.
+- **key-pressed.js**: Manejo de los eventos de teclado.
+- **main.js**: Archivo principal donde se coordina la lógica de la calculadora.
+- **toggle-theme.js**: Control del cambio de tema entre los tres estilos disponibles.
+
 #### utils/
 
 - **html-elements.js**: Manipulación de los elementos HTML de la calculadora.
 - **is-input-value-valid.js**: Validación de las entradas del usuario.
 - **keys-allowed.js**: Definición de las teclas permitidas.
 - **round-decimal.js**: Funcionalidad para redondear decimales.
-- **keep-focus.js**: Mantenimiento del foco en los elementos correctos.
-- **key-clicked.js**: Gestión de los eventos de clic en los botones de la calculadora.
-- **key-pressed.js**: Manejo de los eventos de teclado.
-- **main.js**: Archivo principal donde se coordina la lógica de la calculadora.
-- **toggle-theme.js**: Control del cambio de tema entre los tres estilos disponibles.
+
 
 ### index.html
 
