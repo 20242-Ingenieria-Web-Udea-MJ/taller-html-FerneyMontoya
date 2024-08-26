@@ -1,4 +1,6 @@
-// Función para enfocar el input
+/**
+ * Sets the focus on the input element with class 'input'.
+ */
 function keepFocus() {
     const input = document.querySelector('.input');
     input.focus();

@@ -1,6 +1,12 @@
 import { toggleCircle } from "./utils/html-elements.js";
 import { themeFile } from "./utils/html-elements.js";
 
+/**
+ * Toggles the theme of the calculator.
+ * 
+ * @function toggleTheme
+ * @returns {void}
+ */
 const toggleTheme = () => { 
   const currentTheme = themeFile.href.split('/').pop().split('.')[0];
   

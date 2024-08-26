@@ -1,3 +1,6 @@
+/**
+ * This file contains utility functions related to HTML elements.
+ */
 export const input = document.querySelector('.input');
 export const keyBoard = document.querySelector('.keyboard');
 export const invalidAlert = document.querySelector('.invalid-alert');
