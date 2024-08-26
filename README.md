@@ -21,12 +21,11 @@ Este proyecto es una calculadora web desarrollada con HTML, CSS, y JavaScript co
 
 ## Instrucciones de Uso
 
-1. Clona este repositorio en tu máquina local.
-2. Abre el archivo `index.html` en tu navegador preferido.
-3. Usa el selector de temas en la parte superior para cambiar el tema de la calculadora.
-4. Ingresa una expresión aritmética utilizando los botones de la calculadora.
-5. Presiona `=` para obtener el resultado. Si la expresión es inválida, se mostrará un mensaje de error.
-6. Para reiniciar la calculadora, presiona el botón `RESET`.
+1. Abre el siguiente link `(https://ferneymontoya6.github.io/calculator-ingenieria-web/)` en tu navegador preferido.
+2. Usa el selector de temas en la parte superior para cambiar el tema de la calculadora.
+3. Ingresa una expresión aritmética utilizando los botones de la calculadora o usando tu teclado.
+4. Presiona `=` para obtener el resultado. Si la expresión es inválida, se mostrará un mensaje de error.
+5. Para reiniciar la calculadora, presiona el botón `RESET`.
 
 ## Estructura del Proyecto
 
